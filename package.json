@@ -1,0 +1,14 @@
+{
+  "name": "parts-unlimited",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Bestellservice von Parts Unlimited – Übungsprojekt der Veranstaltung DevOps (THM)",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test"
+  }
+}
