@@ -15,11 +15,11 @@ test("prüft den Lagerbestand", () => {
 });
 
 test("berechnet Netto, Mehrwertsteuer und Brutto", () => {
-  // 2 x Ölfilter = 17,80 € netto, 19 % MwSt = 3,38 €
+  // 2 x Ölfilter = 19,80 € netto, 19 % MwSt = 3,76 €
   assert.deepEqual(orderTotal([{ sku: "PU-2001", quantity: 2 }]), {
-    netCents: 1780,
-    vatCents: 338,
-    grossCents: 2118,
+    netCents: 1980,
+    vatCents: 376,
+    grossCents: 2356,
   });
 });
 
