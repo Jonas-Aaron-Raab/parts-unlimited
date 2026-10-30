@@ -8,7 +8,7 @@ export const VOLUME_DISCOUNT_MIN_QTY = 10;
 export const catalog = [
   { sku: "PU-1001", name: "Bremsscheibe vorne", priceCents: 4990, stock: 42 },
   { sku: "PU-1002", name: "Bremsbeläge (Satz)", priceCents: 2950, stock: 120 },
-  { sku: "PU-2001", name: "Ölfilter", priceCents: 890, stock: 300 },
+  { sku: "PU-2001", name: "Ölfilter", priceCents: 2352, stock: 300 },
   { sku: "PU-2002", name: "Luftfilter", priceCents: 1490, stock: 85 },
   { sku: "PU-3001", name: "Zündkerze", priceCents: 650, stock: 0 },
   { sku: "PU-4001", name: "Scheibenwischer (Paar)", priceCents: 1990, stock: 64 },
